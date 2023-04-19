@@ -30,3 +30,4 @@ Availability zones helps to fault Tolerance  (resiliency) by offerinf the abilit
 | Be closer to end users and helps during regional outages | Deploys resources across zones and Helps during single point of failure|
 
 ### Azure Services
+![image](https://user-images.githubusercontent.com/130353146/233059414-2046d78a-a172-479d-a933-0adfa494881c.png)
