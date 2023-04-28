@@ -59,6 +59,7 @@ CMMI is less known and more formal process for change management.The 3rd level o
 Requirements can be proposed, Active, resolved and closed.
 
 Bugs are also available to tracking defects.
+
 ![image](https://user-images.githubusercontent.com/130353146/235141141-b53d33ef-461c-43af-9b95-9f470a1bd680.png)
 
 ### Basic Process 
@@ -68,4 +69,38 @@ Work items supports the To Do, DOing and done states
 
 ![image](https://user-images.githubusercontent.com/130353146/235141555-069b414f-c889-4173-8818-a2b22153f436.png)
 
-## Licensing Options
+## Azure DevOps Licensing
+These costs come in two dimensions
+- User Licensing 
+- Other Consumables
+For users there are three types of licenses
+### Basic Plans
+can access all service offerings, except test plans
+
+Every Visual Studio professional subscriber gets a license like this for free 
+
+First five users are free holders of Visual Studio professional do not count towards this five.
+### Basic + Test Plans
+Users with this type of licensecan also create and manage test plans
+
+Every Visual Studio enterprise subscriber get this type of license for free 
+### Stakeholder
+They are limited to what they can do with the product.
+
+They do have access to Azure Boards for work management
+
+They do not have access to source control via azure repo
+
+In pipelines they can view bills and release and approve deployments to environments
+
+They have no access to the azure test plans and azure artifacts
+
+They can view dashboards but can not create or edit them
+
+Stakeholder licenses are free 
+### Other Consumables
+| Private Projects | Public Projects |
+|:--|:--|
+| 1 concurrent CI/CD hosted jobs with 1800 minutes per month | 10 concurrent CI/CD hosted jobs with unlimited minutes included |
+| 1 concurrent CI/CD self hosted job with unlimited minutes | Free access to boards, repositories and pipelines for anonymous users|
+| 2GB of storage for azure artifacts | N/A |
