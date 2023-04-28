@@ -53,6 +53,9 @@ Provides a centralised management layer and can be accessed by
 - Centralized management
 - Parent can have multiple children -child can only have one parent
 - Similiar to OS file structure
+
+![image](https://user-images.githubusercontent.com/130353146/235117601-5087a801-223e-4734-ab16-a137a83c7862.png)
+
 ### Azure resource Hierarchy components
 
 ![image](https://user-images.githubusercontent.com/130353146/233344683-0d03f837-9e07-4608-8bcd-e98f013433e0.png)
@@ -66,6 +69,14 @@ Identity Access Management helps in `who ? can do what ? on which resources ?`
 An cloud based identity service (One per tenant)
 
 ![image](https://user-images.githubusercontent.com/130353146/233347686-8b0df640-4fdb-48fc-b024-6f11134504d8.png)
+
+Azure AD is like an org chart phonebook and access list all rolled into one service 
+
+By including an AD as a central feature to Azure, Microsoft allows businesses to focus on core product development
+
+Developers can offload tedious task of managing users and the privacy concerns around their data 
+
+It also allows us to have a single source of truth for all of businesses applications
 
 ### Azure Role-Based Access Control (Azure RBAC)
 Controls access using roles
