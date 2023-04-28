@@ -2,6 +2,11 @@
 ## Virtual Machines (Compute)
 Azure VM is as virtual computer same as a physical computer at azure cloud and can be accessed by internet
 
+VMs are simulations of physical computers and all azure VMs are servers, Linux or Windows
+
+VMs include network cards, disks, processors/RAM(VM) and an OS and are the highest cost center of most Azure Deployments.
+
+
 VM's are known as `IaaS` Service.
 
 **Azure's Responsibility**
@@ -32,7 +37,13 @@ It can provide both `private` and `public` network communication among azure res
 
 Virtual format of networking concepts is referred as `Software Defined Networking (SDN)`
 
-Usind SDN we can enable the combination of different types of publi access or choose to keep different types of communication private or internal only.
+Using SDN we can enable the combination of different types of publi access or choose to keep different types of communication private or internal only.
+
+VNet in azure very closely mimic the setup, configuration and architecture of networks in op-premise locations 
+
+Each Subscription and region can have many virtual network
+
+Those networks can be combined and structured in many different ways to achieve a comprehensive and complex network design
 
 **On Azure a VNet can exist only in a single region at a time although other options do exist to connect seperate virtual network across regions**
 
@@ -59,9 +70,10 @@ Control access to VNet resource by network protocol ,port, or source locations.
 ## Storage
 Azure's all purpose Storage solution for multiple data Storage scenarios and these are massively scalable and is a managed infrastructure.
 
+
 ![image](https://user-images.githubusercontent.com/130353146/235069798-8882b55b-c064-42b7-8ce8-13b52c7583dc.png)
 
-All storage types (Blobs, Disks, Queues, etc)are included in the storage account.
+All storage types (Blobs, Disks, Queues, etc)are organised into `Storage Accounts`
 
 ### Blob (Binary Large Object)
 Object storage is often referred to as unstructured data (images, videos, scripts, any type of file)
