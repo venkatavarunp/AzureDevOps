@@ -29,3 +29,14 @@ A SaaS solution that provides dsashboards for taking the results of azure synaps
 the solutions for data collection process for IoT devices are 
 - Ingestion, Storage, Analysis
 - Intergrates with big data tools
+## Cloud Advantages
+the key Advantages of cloud Computing are 
+- Fault Tolerance (Redundancy/Resiliency)
+- High Availabilty
+- Scalability
+- Elasticity
+
+They can help in 
+- Automatic, On-demand resources when needed
+- Automatic failover in case of error
+- Seperation of storage and compute
