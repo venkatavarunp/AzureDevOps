@@ -31,3 +31,41 @@ In this work item process are
 - Feature 
 - User Story 
 - Task
+
+![image](https://user-images.githubusercontent.com/130353146/235139650-c5675ca3-d38f-4a33-8894-bb7cd03b06b7.png)
+
+User Stories are the items that we normally move from a product backlog to sprint backlog or iteration.
+
+Within this iteration we can refine the user stories with concrete tasks to be performed
+
+User stories have a state that describes whether they are new, active, that's being worked on, resolved, closed or Removed.
+
+User Stories can be organised below features which can optionally, be organised below Epics
+
+Epics and Features are only used on a product backlog to perform portfolio management and are not used within an iteration
+
+Within User story we can enable the work item type of a bug.It is handy if we want a different trait between bugs and regular user stories on our backlog
+
+if we want to differentiate between bug and regular user stories from your backlog just as a story a book can be divided into a number of concrete tasks and be placed in a Sprint or iteration 
+
+### Scrum Process
+The difference of Scrum from Agile process is the PBI (product backlog item) and the states that the story can be in also different. The PBI can be New, Approved, Committed, Done or Removed.
+
+![image](https://user-images.githubusercontent.com/130353146/235140596-05562379-3fea-4d85-b8d7-347a0b5e3977.png)
+
+### CMMI Process 
+CMMI is less known and more formal process for change management.The 3rd level of work item is a requirement.
+
+Requirements can be proposed, Active, resolved and closed.
+
+Bugs are also available to tracking defects.
+![image](https://user-images.githubusercontent.com/130353146/235141141-b53d33ef-461c-43af-9b95-9f470a1bd680.png)
+
+### Basic Process 
+A new, more lightweight, basic process to get started and suitable for small teams.
+
+Work items supports the To Do, DOing and done states 
+
+![image](https://user-images.githubusercontent.com/130353146/235141555-069b414f-c889-4173-8818-a2b22153f436.png)
+
+## Licensing Options
